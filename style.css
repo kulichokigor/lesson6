@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+
+.conteiner{
+border: 1px solid;
+margin: 0 auto;
+padding:5px;
+width: 90%;
+}
+table{
+	border-collapse: collapse;
+	width: 100%;
+	font-family: 'Work Sans', sans-serif;
+}
+td{
+	padding: 5px; 
+ 	border: 1px solid #000;
+}
+caption{
+	font-size: 25px;
+}
+colgroup {
+	border:2px solid #000;
+	text-align: left;
+	vertical-align: top;
+}
+thead{
+	border: 2px solid #000;
+	text-align: center;
+	vertical-align: bottom;
+	background: #ddfdf2;
+}
+
+thead>tr>td:last-child{
+	border-bottom-color: transparent;
+}
+
+.bottom-border td{
+	border-bottom-color: transparent;
+}
+tbody td:first-child{
+	border-right-color: transparent;
+}
+tbody td:nth-of-type(2){
+	border-right-color: transparent;
+	text-align: left;
+}
+tbody tr:nth-of-type(2)>td:first-child{
+	border-bottom-color: transparent;
+}
+tbody td:nth-of-type(4),tbody td:nth-of-type(5),tbody td:nth-of-type(6),tbody td:nth-of-type(7){
+	text-align: right;
+}
+col[span='3']{
+	background:#f5ffdc;
+}
+col[span='4']{
+	background:#ffe1dc;
+}
